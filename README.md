@@ -6,6 +6,7 @@ The 3 assignments folders are the 3 "big" tasks I did while studying the subject
 Till then my coding skills have,no doubt,grown bigger and keep growing day to day.
 
 The compilation commands for each program are the below
+
 1.gcc -o exe kalmpr.c     Then run ./exe
 
 2.Before you compile the program change the MODE in line 4 of wavproc.c to your preference
