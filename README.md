@@ -7,6 +7,7 @@ Till then my coding skills have,no doubt,grown bigger and keep growing day to da
 
 The compilation commands for each program are the below
 1.gcc -o exe kalmpr.c     Then run ./exe
+
 2.Before you compile the program change the MODE in line 4 of wavproc.c to your preference
 gcc -o exe wavproc.c -lm     ++++input file before run the exe(choose one from the folder inside depending on the MODE you will be running the program). You will have to move the .wav file to the folder where the exe is, in order to run smoothly with the command-> "./exe < 1MB.wav".
 
