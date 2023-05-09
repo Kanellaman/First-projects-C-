@@ -10,7 +10,7 @@ The compilation commands for each program are the below
 1.gcc -o exe kalmpr.c     Then run ./exe
 
 2.Before you compile the program change the MODE in line 4 of wavproc.c to your preference
-gcc -o exe wavproc.c -lm     ++++input file before run the exe(choose one from the folder inside depending on the MODE you will be running the program). You will have to move the .wav file to the folder where the exe is, in order to run smoothly with the command-> "./exe < 1MB.wav".
+gcc -o exe wavproc.c -lm < input file before run the exe(choose one from the folder inside depending on the MODE you will be running the program). You will have to move the .wav file to the folder where the exe is, in order to run smoothly with the command-> "./exe < 1MB.wav".
 
 3.gcc -o exe shop.c shopdp.c or gcc -o exe shop.c shopmem.c or gcc -o exe shop.c shoprec.c   ++++add arguments before run the exe to determine the amount of money available(N) and insert the file em.txt for the quantity and prices of the items. Then run the command ./exe N < em.txt
 
